@@ -122,13 +122,14 @@ body.overflowhide {overflow:hidden;}
 .social_icon a.search-strip:hover{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6); border: 1px solid #000000; color: #FFFFFF;}
 .social_icon li a:hover,.social_icon li a{-webkit-transition:all .3s ease 0s;-moz-transition: all .3s ease 0s;-o-transition: all .3s ease 0s;transition: all .3s ease 0s;}
 .social_icon li.linkedin-icon a:hover { background: none repeat scroll 0 0 #0280B0; }
-.social_icon li.fb-icon a:hover { background: none repeat scroll 0 0 #3a5999; }
-.social_icon li.tw-icon a:hover { background: none repeat scroll 0 0 #3aa9de; }
+.social_icon li.fb-icon a:hover { background: none repeat scroll 0 0 #ffea00; }
+.social_icon li.tw-icon a:hover { background: none repeat scroll 0 0 #ffea00; }
 .social_icon li.flickr-icon a:hover { background: none repeat scroll 0 0 #D80068; }
 .social_icon li.gplus-icon a:hover { background: none repeat scroll 0 0 #d14836; }
 .social_icon li.youtube-icon a:hover { background: none repeat scroll 0 0 #cc332d; }
 .social_icon li.foursquare-icon a:hover { background: none repeat scroll 0 0 #0cbadf; }
 .social_icon li.pinterest-icon a:hover { background: none repeat scroll 0 0 #cb2028; }
+.social_icon li.vk-icon a:hover { background: none repeat scroll 0 0 #ffea00; }
 
 
 /* =#CONTENT
