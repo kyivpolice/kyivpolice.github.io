@@ -486,7 +486,7 @@ div.m-style-iw{width:300px !important;height:auto !important;}
 .siteinfo .sitename a {color: #FFFFFF;font-size: 20px;text-decoration: none;}
 .siteinfo .sitedescription {color: #858585;font-size: 12px;}
 #footer .second_wrapper { }
-#footer .third_wrapper { background-color: #222222; color: #888;margin: 0 auto; padding: 15px 0;}
+#footer .third_wrapper { background-color: #1A1765; color: #fff;margin: 0 auto; padding: 15px 0;}
 #footer .ske-footer-container {float: left;padding-top: 41px; margin-bottom:41px;}
 #footer li.ske-footer-container {list-style: none outside none;}
 .ske-title.ske-footer-title {color: #777777;font-weight: 500;font-size: 26px;letter-spacing: 2px; margin-bottom: 25px; padding-bottom: 5px;} 	
@@ -498,8 +498,8 @@ div.m-style-iw{width:300px !important;height:auto !important;}
 #footer .third_wrapper .copyright {line-height: 20px;min-height: inherit;font-size: 13px;text-align:center;} 
 #footer .third_wrapper .copyright p{margin:0;}
 #footer .third_wrapper .owner {line-height: 20px;text-align:center;min-height: inherit;font-size: 13px;margin:0;}
-#footer .third_wrapper a {color: #969595;  text-decoration: none; font-size: 13px; }
-#footer .third_wrapper a:hover {color: #eee;}
+#footer .third_wrapper a {color: #ffdd00;  text-decoration: none; font-size: 13px; }
+#footer .third_wrapper a:hover {color: #ffdd00;}
 a#backtop:before{color: #FFFFFF;content: "\f106"; display: block; font-family: 'FontAwesome'; font-size:14px; margin-top: 9px; text-align: center;}
 a#backtop {background: none no-repeat scroll 0 0 #f65e13; bottom:7px; height: 35px; line-height: 16px; position: fixed; right: 30px; text-decoration: none; width: 35px; z-index: 9999} 	
 .ske-footer-container .menu li { display: block; float: none; } 
