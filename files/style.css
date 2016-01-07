@@ -40,7 +40,7 @@ a img {border: none;}
 a {text-decoration: none;color: #555;}
 a, img, a img, input[type="text"], input[type="password"], input, textarea {outline:none;}
 a{transition: all 0.3s linear 0s;  -webkit-transition: all 0.3s linear 0s; -moz-transition: all 0.3s linear 0s; -o-transition: all 0.3s linear 0s;  }
-a:hover{ color: #555;transition: all 0.3s linear 0s;  -webkit-transition: all 0.3s linear 0s; -moz-transition: all 0.3s linear 0s; -o-transition: all 0.3s linear 0s;  }
+a:hover{ color: #ffea00;transition: all 0.3s linear 0s;  -webkit-transition: all 0.3s linear 0s; -moz-transition: all 0.3s linear 0s; -o-transition: all 0.3s linear 0s;  }
 
 
 /* =HEADER
@@ -89,7 +89,7 @@ body.overflowhide {overflow:hidden;}
 #skenav ul ul:after { border-bottom: 6px solid #000; border-left: 7px solid transparent; border-right: 7px solid transparent; content: ""; display: block; height: 0; left: 10px; position: absolute; top: -9px; width: 0; }
 #skenav ul ul ul.sub-menu,#skenav ul ul ul.children{ border-top: 0 none;left: 100%;top:0px !important;margin-top:0;}
 #skenav ul ul li{border-top: 1px solid #363636;}
-#skenav a {color: #fff; display: block; font-size: 14px; line-height: 53px; padding: 0 22px; text-decoration: none; text-transform: uppercase;}
+#skenav a {color: #ffea00; display: block; font-size: 14px; line-height: 53px; padding: 0 22px; text-decoration: none; text-transform: uppercase;}
 #skenav ul ul a {line-height: 1.2em;font-size: 13px;padding: 12px 15px;width: auto;height: auto;color: #FFFFFF;}
 #skenav .children .item_selected {display:none;}
 #header.skehead-headernav-shrink .row-fluid {background: transparent;}
