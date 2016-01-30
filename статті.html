@@ -16,10 +16,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <![endif]-->
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<title>Світова практика онлайн-трансляцій переговорів поліції - Поліція онлайн</title>
+<title>Транслювати радіопереговори поліції в інтернет - Поліція онлайн</title>
 
 <link rel='stylesheet' id='wpclef-main-css'  href='files/main.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='convac-style-css'  href='files/style.css' type='text/css' media='all' />
+<!-- <link rel='stylesheet' id='convac-animation-stylesheet-css'  href='http://grum.esy.es/wp-content/themes/convac-lite/css/convac-animation.css?ver=1.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='convac-awesome-theme-stylesheet-css'  href='http://grum.esy.es/wp-content/themes/convac-lite/css/font-awesome.css?ver=1.0.6' type='text/css' media='all' />-->
 <link rel='stylesheet' id='flexslider-theme-stylesheet-css'  href='files/flexslider.css' type='text/css' media='all' />
 <link rel='stylesheet' id='convac-prettyPhoto-style-css'  href='files/prettyPhoto.css' type='text/css' media='all' />
 <link rel='stylesheet' id='convac-ddsmoothmenu-superfish-stylesheet-css'  href='files/superfish.css' type='text/css' media='all' />
@@ -126,7 +128,7 @@ jQuery('document').ready(function(){
 														<!-- #description -->
 							<div id="site-title" class="logo_desp">
 								<a href="http://kyivpoliceops.com/" title="Поліція онлайн" >Поліцейська хвиля онлайн</a> 
-								<div id="site-description">Радіомоніторинг переговорів нової поліції Києва</div>
+								<div id="site-description">Приєднатись до проекту</div>
 							</div>
 							<!-- #description -->
 													</div>
@@ -193,8 +195,8 @@ jQuery('document').ready(function(){
 		<div class="container">
 			<div class="row-fluid">
 				<div class="container_inner clearfix">
-					<h1 class="title">Світова практика онлайн-трансляцій переговорів поліції</h1>
-					<section class="cont_nav"><div class="cont_nav_inner"><p><a href="http://kyivpoliceops.com/">Home</a>&nbsp;<span class="skt-breadcrumbs-separator"> &gt;&gt; </span>&nbsp;<span>Подібні проекти за кордоном</span></p></div></section>				</div>
+					<h1 class="title">Створити власну онлайн-трансляцію радіопереговорів поліції</h1>
+					<section class="cont_nav"><div class="cont_nav_inner"><p><a href="http://kyivpoliceops.com/">Home</a>&nbsp;<span class="skt-breadcrumbs-separator"> &gt;&gt; </span>&nbsp;<span>Поліцейський радіосканер</span></p></div></section>				</div>
 			</div>
 		</div>
 	</div>
@@ -205,24 +207,28 @@ jQuery('document').ready(function(){
 				<div id="content" class="span8">
 					<div class="post clearfix" id="post-11">
 						<div class="skepost">
-							<p><span>Трансляції радіопереговорів оперативних служб існують абсолютно легально у багатьох країнах світу, підвищуючи популярність поліції та засвідчуючи її відкритість та прозорість перед громадянським суспільством. Першість ж у цьому списку займає США, де чи не в кожному районі великих міст громадяни мають змогу контролювати діяльність правоохоронців.</span></p>
-							<p><span>Часто, місцева громада допомагає поліції у питаннях розшуку злочинців, виїзду на місце транспортних пригод та пожеж. Кожен усвідомлює важливість та своє право оцінювати роботу органів правопорядку.</span></p>
-<p><span>США:</span></p>
-<p><a href="http://youarelistening.to/" target="_blank">http://youarelistening.to/</a></p>
-<div class="gmail_extra" style="color: #1155cc;"><a href="http://moses.bz/scanners/" target="_blank">http://moses.bz/scanners/</a></div>
-<div class="gmail_extra" style="color: #1155cc;"><a href="http://www.broadcastify.com/listen/" target="_blank">http://www.broadcastify.com/<wbr>listen/</a></div>
-
-	<div>
-		<div>Канада:</div>
-		<div><a href="http://www.broadcastify.com/listen/coid/2" target="_blank">http://www.broadcastify.com/listen/coid/2</a></div>
-		<div>Австралія:</div>
-		<div><a href="http://www.broadcastify.com/listen/coid/16" target="_blank">http://www.broadcastify.com/listen/coid/16</a></div>
-		<div><a href="http://dps-fm.com/" target="_blank">http://dps-fm.com/</a></div>
-	</div>
-</div>
-
-<p><span><h3>Схожі проекти великим списком в інших країнах:</h3></span></p>
-<p><a href="http://tunein.com/radio/Scanners-g257/" target="_blank">http://tunein.com/<wbr>radio/Scanners-g257/</a></p>
+							<p>Для підключення до світової мережі онлайн-трансляцій переговорів оперативних служб Вам необхідно мати SDR-приймач та програму SDRsharp (див. <a href="http://rtl-sdr.ru/page/instrukcija-po-ustanovke-sdrsharp">інструкцію по налаштуванню</a>).</p>
+<p>Окрім того, Вам знадобляться програми Virtual Audio Cable та <a href="http://butt.sourceforge.net/">Butt</a></p>
+<p>У програмі SDRSharp необхідно у якості аудіовиходу вказати Line 1 Virtual Audio Cable:</p>
+<img src="files/images/sdrsharp.png">
+<p>Для того, щоб Ваша програма для стріму, у данному випадку Butt, змогла отримувати звук з Вашого приймача, необхідно в її налаштуваннях також обрати line 1 (Virtual Audio Cable), як на зображенні:</p>
+<img src="files/images/butt.png">
+<p>(Зверніть увагу, щоб Ваші налаштування збігалися зі скріншотом)</p>
+<p>Після цього Ви технічно готові до трансляції переговорів в інтернет, й Вам залишається лише зареєструватись на офіційному сайті проекту <a href="http://register.radioreference.com/">http://register.radioreference.com/</a> та зареєструвати власну трансляцію, вибравши свій регіон.</p>
+<p>Додаємо детальну інструкцію щодо реєстрації трансляції.</p>
+<p>Для реєстрації зайдіть у власний <a href="http://www.radioreference.com/apps/account/?tab=la">кабінет, розділ "Feeds"</a> та настисніть "Apply to Broadcast Feed":
+<img src="files/images/radioreference.png">
+<p>Уважно прочитайте правила проекту та погодьтеся з кожним пунктом (для перекладу можете скористатись Google-перекладачем).</p>
+Оберіть категорію: "Public Safety", у поле "description" введіть назву Вашої трансляції англійською мовою, нижче додайте опис стріму та оберіть вашу країну. Зназначте в описі райони міста, служби, які Ви покриєте та іншу додаткову інформацію про Ваш стрім. Натисніть "Submit Application".
+<img src="files/images/feed.png" width="350px">
+<p>Після підтвердження реєстрації сервіс Broadcastify надасть Вам інформацію для підключення Вашого стріму, яку можна знайти, натиснувши у власному кабінеті на розділ "Feeds" та кнопку налаштувань поряд з назвою Вашої трасляції: </p>
+<img src="files/images/manage.png">
+<p>Перейдіть у розділ "Techicals", де ви знайдете адресу, порт, Mount та пароль для підключення:</p>
+<img src="files/images/connection.png">
+<p>Введіть ці дані в налаштуваннях Butt та натисність "Save".</p>
+<img src="files/images/butt-settings.png">
+<p>Все готово, можете запускати стрім. Тепер Ваша трансляція доступна для прослуховування у світовій мережі Broadcastify!</p>
+<p>Для того, щоб додати Ваш стрім на наш сайт, заповність, будь-ласка <a href="https://docs.google.com/forms/d/1dwk6vhDJnHOcbgYSd7fPE0B2mYNHzywBnHc4o6_SUm8/viewform#start=openform">форму</a>.</p>
 
 													</div>
 					<!-- skepost --> 
@@ -236,7 +242,7 @@ jQuery('document').ready(function(){
 				<!-- Sidebar -->
 				<div id="sidebar" class="span4"><div id="sidebar_2" class="ske_widget">
 					<ul class="skeside">
-		            	<li><a href="про-нас.html">Про нас</a></li>
+	            		<li><a href="про-нас.html">Про нас</a></li>
             			<li><a href="наші-друзі.html">Світова практика</a></li>
             			<li><a href="переговори-поліції-на-смартфоні.html">Слухати поліцію на смартфоні</a></li>
             			<li><a href="транслювати-переговори-поліції-в-інтернет.html">Приєднатись до проекту</a></li>
@@ -271,12 +277,11 @@ jQuery('document').ready(function(){
               				<li><a href="переговори-поліції-на-смартфоні.html">Слухати поліцію на смартфоні</a></li>
             			</ul>
 					</div>
-		</div><div id="text-4" class="ske-footer-container span3 ske-container widget_text">
-		        <ul>
-		        	<li><a href="про-нас.html">Про нас</a></li>
-            		<li><a href="наші-друзі.html">Світова практика</a></li>
-            	</ul>
-			<div class="textwidget">
+		</div><div id="text-4" class="ske-footer-container span3 ske-container widget_text">			<div class="textwidget">
+				<ul>
+					<li><a href="про-нас.html">Про нас</a></li>
+					<li><a href="наші-друзі.html">Світова практика</a></li>
+				</ul>
 
 </div>
 		</div>				<div class="ske-footer-container span3 ske-container widget_text">
@@ -292,7 +297,7 @@ jQuery('document').ready(function(){
 		<div class="container">
 			<div class="row-fluid">
 				<div class="copyright span12">  </div>
-				<div class="owner span12">Copyright © <a href="http://kyivpoliceops.com" title="Kyiv Police Radio">KyivPolice Operations</a> 2016</div>
+				<div class="owner span12">Copyright © <a href="mailto:kyivpoliceops.com" title="Написати Kyiv Police Radio">KyivPolice Operations</a> 2016</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
@@ -303,7 +308,6 @@ jQuery('document').ready(function(){
 </div>
 <!-- #wrapper -->
 	<a href="JavaScript:void(0);" title="Back To Top" id="backtop"></a>
-
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
