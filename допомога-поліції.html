@@ -16,7 +16,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <![endif]-->
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<title>Транслювати радіопереговори поліції в інтернет - Поліція онлайн</title>
+<title>Карта покриття - Поліція онлайн</title>
 
 <link rel='stylesheet' id='wpclef-main-css'  href='files/main.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='convac-style-css'  href='files/style.css' type='text/css' media='all' />
@@ -108,11 +108,14 @@
 
 
 </style>
-
+<script src="http://maps.googleapis.com/maps/api/js"></script>
 <script type="text/javascript">
 jQuery('document').ready(function(){
   jQuery('ul#menu-main').sktmobilemenu({'fwidth':'825'});
 });
+
+
+
 </script></head>
 <body class="page page-id-11 page-template-default" >
 
@@ -128,7 +131,7 @@ jQuery('document').ready(function(){
 														<!-- #description -->
 							<div id="site-title" class="logo_desp">
 								<a href="http://kyivpoliceops.com/" title="Поліція онлайн" >Поліцейська хвиля онлайн</a> 
-								<div id="site-description">Приєднатись до проекту</div>
+								<div id="site-description">Карта покриття</div>
 							</div>
 							<!-- #description -->
 													</div>
@@ -195,7 +198,7 @@ jQuery('document').ready(function(){
 		<div class="container">
 			<div class="row-fluid">
 				<div class="container_inner clearfix">
-					<h1 class="title">Створити власну онлайн-трансляцію радіопереговорів поліції</h1>
+					<h1 class="title">Карта покриття</h1>
 					<section class="cont_nav"><div class="cont_nav_inner"><p><a href="http://kyivpoliceops.com/">Home</a>&nbsp;<span class="skt-breadcrumbs-separator"> &gt;&gt; </span>&nbsp;<span>Поліцейський радіосканер</span></p></div></section>				</div>
 			</div>
 		</div>
@@ -207,28 +210,16 @@ jQuery('document').ready(function(){
 				<div id="content" class="span8">
 					<div class="post clearfix" id="post-11">
 						<div class="skepost">
-							<p>Для підключення до світової мережі онлайн-трансляцій переговорів оперативних служб Вам необхідно мати SDR-приймач та програму SDRsharp (див. <a href="http://rtl-sdr.ru/page/instrukcija-po-ustanovke-sdrsharp">інструкцію по налаштуванню</a>).</p>
-<p>Окрім того, Вам знадобляться програми Virtual Audio Cable та <a href="http://butt.sourceforge.net/">Butt</a></p>
-<p>У програмі SDRSharp необхідно у якості аудіовиходу вказати Line 1 Virtual Audio Cable:</p>
-<img src="files/images/sdrsharp.png">
-<p>Для того, щоб Ваша програма для стріму, у данному випадку Butt, змогла отримувати звук з Вашого приймача, необхідно в її налаштуваннях також обрати line 1 (Virtual Audio Cable), як на зображенні:</p>
-<img src="files/images/butt.png">
-<p>(Зверніть увагу, щоб Ваші налаштування збігалися зі скріншотом)</p>
-<p>Після цього Ви технічно готові до трансляції переговорів в інтернет, й Вам залишається лише зареєструватись на офіційному сайті проекту <a href="http://register.radioreference.com/">http://register.radioreference.com/</a> та зареєструвати власну трансляцію, вибравши свій регіон.</p>
-<p>Додаємо детальну інструкцію щодо реєстрації трансляції.</p>
-<p>Для реєстрації зайдіть у власний <a href="http://www.radioreference.com/apps/account/?tab=la">кабінет, розділ "Feeds"</a> та настисніть "Apply to Broadcast Feed":
-<img src="files/images/radioreference.png">
-<p>Уважно прочитайте правила проекту та погодьтеся з кожним пунктом (для перекладу можете скористатись Google-перекладачем).</p>
-Оберіть категорію: "Public Safety", у поле "description" введіть назву Вашої трансляції англійською мовою, нижче додайте опис стріму та оберіть вашу країну. Зназначте в описі райони міста, служби, які Ви покриєте та іншу додаткову інформацію про Ваш стрім. Натисніть "Submit Application".
-<img src="files/images/feed.png" width="350px">
-<p>Після підтвердження реєстрації сервіс Broadcastify надасть Вам інформацію для підключення Вашого стріму, яку можна знайти, натиснувши у власному кабінеті на розділ "Feeds" та кнопку налаштувань поряд з назвою Вашої трасляції: </p>
-<img src="files/images/manage.png">
-<p>Перейдіть у розділ "Techicals", де ви знайдете адресу, порт, Mount та пароль для підключення:</p>
-<img src="files/images/connection.png">
-<p>Введіть ці дані в налаштуваннях Butt та натисність "Save".</p>
-<img src="files/images/butt-settings.png">
-<p>Все готово, можете запускати стрім. Тепер Ваша трансляція доступна для прослуховування у світовій мережі Broadcastify!</p>
-<p>Для того, щоб додати Ваш стрім на наш сайт, заповність, будь-ласка <a href="https://docs.google.com/forms/d/1dwk6vhDJnHOcbgYSd7fPE0B2mYNHzywBnHc4o6_SUm8/viewform#start=openform">форму</a>.</p>
+							<span><h1>Співпраця громадян та місцевої поліції у світі:</h1></span>
+                <ul>
+                  <li><a href="радіолюбитель-допоміг-поліцейському-в-біді.html" target="_blank">Радіолюбитель допоміг поліцейському в біді</a></li>
+                  <li><a href="радіомоніторинг-частот-поліції-допоміг-затримати-озброєних-злочинців.html" target="_blank">Сусід, який слухав радіопереговори поліції, допоміг заарештувати &ldquo;домушницю&rdquo;</a></li>
+                  <li><a href="сусід-який-слухав-радіопереговори-поліції-допоміг-затримати-домушницю.html" target="_blank">Радіомоніторинг частот поліції допоміг затримати озброєних злочинців</a></li>
+                </ul>
+
+
+
+
 
 													</div>
 					<!-- skepost --> 
@@ -243,7 +234,7 @@ jQuery('document').ready(function(){
 				<div id="sidebar" class="span4"><div id="sidebar_2" class="ske_widget">
 					<ul class="skeside">
 	            		<li><a href="про-нас.html">Про нас</a></li>
-            			<li><a href="наші-друзі.html">Світова практика</a></li>
+            			<li><a href="наші-друзі.html">Наші друзі</a></li>
             			<li><a href="переговори-поліції-на-смартфоні.html">Слухати поліцію на смартфоні</a></li>
             			<li><a href="транслювати-переговори-поліції-в-інтернет.html">Приєднатись до проекту</a></li>
 					</ul>
@@ -280,15 +271,17 @@ jQuery('document').ready(function(){
 		</div><div id="text-4" class="ske-footer-container span3 ske-container widget_text">			<div class="textwidget">
 				<ul>
 					<li><a href="про-нас.html">Про нас</a></li>
-					<li><a href="наші-друзі.html">Світова практика</a></li>
+					<li><a href="наші-друзі.html">Наші друзі</a></li>
 				</ul>
 
 </div>
 		</div>				<div class="ske-footer-container span3 ske-container widget_text">
-								<ul>
-									<li><a href="карта.html">Карта покриття</a></li>
-								</ul>		
-							</div>
+				<ul>
+					<li><a href="карта.html">Карта покриття</a></li>
+				</ul>			
+
+
+		</div>
 			</div><!-- second_wrapper -->
 		</div>
 	</div>
