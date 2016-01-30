@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+var amsterdam=new google.maps.LatLng(52.395715,4.888916);
+function initialize()
+{
+var mapProp = {
+  center:{lat: 50.454756, lng: 30.512560},
+  zoom:11,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var mySviat = new google.maps.Circle({
+  center:{lat: 50.452461, lng: 30.362884},
+  radius:3000,
+  strokeColor:"red",
+  strokeOpacity:0.4,
+  strokeWeight:1,
+  fillColor:"red",
+  fillOpacity:0.3
+  });
+
+var mySolom = new google.maps.Circle({
+  center:{lat: 50.425464, lng: 30.454965},
+  radius:3000,
+  strokeColor:"red",
+  strokeOpacity:0.4,
+  strokeWeight:1,
+  fillColor:"red",
+  fillOpacity:0.3
+  });
+
+var myPodol = new google.maps.Circle({
+  center:{lat: 50.488608, lng: 30.446281},
+  radius:3000,
+  strokeColor:"red",
+  strokeOpacity:0.4,
+  strokeWeight:1,
+  fillColor:"red",
+  fillOpacity:0.3
+  });
+
+
+var mySheva = new google.maps.Circle({
+  center:{lat: 50.461619, lng: 30.467381},
+  radius:2000,
+  strokeColor:"red",
+  strokeOpacity:0.4,
+  strokeWeight:1,
+  fillColor:"red",
+  fillOpacity:0.1
+  });
+
+
+mySviat.setMap(map);
+mySolom.setMap(map);
+myPodol.setMap(map);
+mySheva.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+<body>
+<div id="googleMap" style="width:700px;height:400px;"></div>
+</body>
+</html>
